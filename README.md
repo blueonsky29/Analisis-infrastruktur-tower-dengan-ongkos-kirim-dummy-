@@ -25,7 +25,34 @@ Terdiri dari dua data dummy:
 
 ## 📍 Rekomendasi Wilayah Prioritas
 Kecamatan dengan:
-- Jumlah total tower sedikit
-- Tarif ongkir REGULER tinggi
+- Jumlah **total tower** sedikit
+- Tarif ongkir **REGULER** tinggi
 
-Skor dihitung dengan rumus sederhana:
+### 📈 Rumus Skor Prioritas
+
+```python
+prioritas_score = REGULER / total_tower
+```
+
+
+### 📁 Output
+
+- `HASIL_ANALISIS_BEKASI.xlsx` – Hasil lengkap analisis yang sudah digabung dan dibersihkan
+- `REKOMENDASI_PRIORITAS_SINYAL.xlsx` – Top 10 kecamatan yang direkomendasikan untuk penguatan jaringan
+
+### 🧠 Insight Sementara
+
+- Beberapa kecamatan yang secara geografis berada di pinggiran cenderung memiliki jumlah tower sedikit namun ongkir tinggi.
+- Korelasi antara jumlah infrastruktur dan efisiensi ongkir dapat menjadi dasar perencanaan pembangunan jaringan telekomunikasi yang lebih merata.
+
+
+### ⚠️ Disclaimer
+
+Data yang digunakan bersifat dummy dan hanya digunakan untuk keperluan pembelajaran dan simulasi analisis data. Hasil tidak mewakili kondisi riil Kabupaten Bekasi.
+
+👤 Author
+- Nama: Lury Lukmanawati
+- GitHub: https://github.com/blueonsky29
+- Email: lurylukmanawati@gmail.com
+
+
